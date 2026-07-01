@@ -21,9 +21,13 @@ export default function Contact() {
           transition={{ duration: 0.6 }}
         >
           <h2>Office</h2>
-          <p>Bagalkot, Karnataka, India</p>
-          <p>Email: <a href="mailto:chandraassociatesbgk@gmail.com">chandraassociatesbgk@gmail.com</a></p>
-          <p>Phone: <a href="tel:+919845284333">+91 98452 84333</a></p>
+          <p>Shop No.10, Basement Floor, Athani Kalyan Mantap Complex,</p>
+          <p>Near B.E. College Circle, Vidyagiri, Bagalkot - 587102</p>
+          <p>Email: <a href="mailto:bgk.caa@gmail.com">bgk.caa@gmail.com</a></p>
+          <p>Email: <a href="mailto:ar_chandra@live.in">ar_chandra@live.in</a></p>
+          <p>Phone: <a href="tel:+918762507550">+91 87625 07550</a></p>
+          <p>Phone: <a href="tel:+918762507551">+91 87625 07551</a></p>
+          <p>Phone: <a href="tel:+919845278433">+91 98452 78433</a></p>
 
           <div className="info-group">
             <h3>Office hours</h3>
@@ -32,9 +36,8 @@ export default function Contact() {
           </div>
 
           <div className="contact-actions">
-            <a href="https://wa.me/919845284333" className="button primary">WhatsApp Chat</a>
-            <a href="https://www.linkedin.com" className="button secondary">LinkedIn</a>
-            <a href="https://www.facebook.com" className="button secondary">Facebook</a>
+            <a href="https://wa.me/919845278433" className="button primary" target="_blank" rel="noreferrer noopener">WhatsApp Chat</a>
+            <a href="https://www.linkedin.com/company/chandra-architects-and-associates" className="button secondary" target="_blank" rel="noreferrer noopener">LinkedIn</a>
           </div>
 
           <a
@@ -47,31 +50,6 @@ export default function Contact() {
           </a>
         </motion.div>
 
-        <motion.div
-          className="contact-form-panel glass-card"
-          initial={{ opacity: 0, y: 24 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.4 }}
-          transition={{ duration: 0.6, delay: 0.1 }}
-        >
-          <h3>Book an Appointment</h3>
-          <p>Share a few details and our team will get back to you within one business day.</p>
-          <form>
-            <label>
-              Name
-              <input type="text" placeholder="Your full name" />
-            </label>
-            <label>
-              Email
-              <input type="email" placeholder="Your email address" />
-            </label>
-            <label>
-              Project brief
-              <textarea rows={5} placeholder="Briefly describe your project or requirement" />
-            </label>
-            <button type="submit" className="button primary">Request Consultation</button>
-          </form>
-        </motion.div>
       </div>
     </section>
   )

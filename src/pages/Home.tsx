@@ -18,12 +18,12 @@ export default function Home() {
     <section className="home-page">
       <div className="hero-panel">
         <div className="hero-copy">
-          <span className="eyebrow">Chandra Associates</span>
-          <h1>Welcome to Chandra Associates</h1>
-          <p>Your trusted partner in architecture, real estate, and more.</p>
+          <span className="eyebrow">CAA Chandra Architect & Associates</span>
+          <h1>Sir M. Visvesvaraya Award-winning architecture from Bagalkot.</h1>
+          <p>You dream it. We do it.</p>
           <div className="hero-actions">
-            <a href="https://wa.me/919845278433" className="button primary">WhatsApp</a>
-            <a href="https://www.linkedin.com" className="button secondary">LinkedIn</a>
+            <a href="https://wa.me/919845278433" className="button primary" target="_blank" rel="noreferrer noopener">WhatsApp</a>
+            <a href="https://www.linkedin.com/company/chandra-architects-and-associates" className="button secondary" target="_blank" rel="noreferrer noopener">LinkedIn</a>
           </div>
           <div className="hero-profile-grid">
             <div className="hero-profile glass-card">
@@ -39,11 +39,11 @@ export default function Home() {
             <div className="hero-profile glass-card">
               <img
                 src="https://unicorn-images.b-cdn.net/cbe0bd75-6379-42a1-8438-0906edd5502d"
-                alt="Co-Founder Chandra Kumar"
+                alt="Co-Founder Ar. Chandraprakesh B. Choudhary"
               />
               <div>
                 <strong>Co-Founder</strong>
-                <p>Chandra Kumar</p>
+                <p>Ar. Chandraprakesh B. Choudhary</p>
               </div>
             </div>
           </div>

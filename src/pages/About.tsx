@@ -14,13 +14,13 @@ const leadership = [
     name: 'Binod Kumar',
     role: 'Founder',
     image: 'https://unicorn-images.b-cdn.net/1fe30d76-4a3c-4bb6-8ad1-e8142cabb268',
-    description: 'Guiding the vision with strategic design and engineering leadership.',
+    description: 'Founding partner guiding the firm with design leadership, strategy, and a commitment to quality delivery.',
   },
   {
-    name: 'Chandra Kumar',
+    name: 'Ar. Chandraprakesh B. Choudhary',
     role: 'Co-Founder',
     image: 'https://unicorn-images.b-cdn.net/cbe0bd75-6379-42a1-8438-0906edd5502d',
-    description: 'Bringing operational excellence and project delivery expertise.',
+    description: 'Sir M. Visvesvaraya Award-winning architect leading the firm with rural heritage, community focus, and project excellence.',
   },
 ]
 
@@ -31,8 +31,8 @@ export default function About() {
         <p className="eyebrow">About Us</p>
         <h1>Who We Are</h1>
         <p className="section-lead">
-          Chandra Architects and Associates is a multidisciplinary design practice dedicated to creating timeless architecture, elegant interiors, and world-class visualizations.
-          We combine creativity, technical expertise, and innovation to deliver spaces that enrich lives and exceed expectations.
+          CAA Chandra Architect & Associates is a multidisciplinary design practice founded in Bagalkot by Founder Binod Kumar and Co-Founder Ar. Chandraprakesh B. Choudhary.
+          Together they build a practice that blends community-led courage, award-winning design, and construction excellence.
         </p>
       </div>
 
@@ -54,8 +54,8 @@ export default function About() {
             <p className="eyebrow">Founder</p>
             <h2>Binod Kumar</h2>
             <p>
-              Binod Kumar leads Chandra Architects and Associates with a visionary approach to design and project delivery.
-              His career blends architectural excellence, real estate strategy, and an unwavering commitment to quality.
+              Binod Kumar is the founder of CAA Chandra Architect & Associates. He leads the firm with strategic vision, operational expertise, and a focus on design-driven project delivery.
+              His leadership is built on a dedication to client success and high-quality execution.
             </p>
           </div>
         </div>

@@ -12,10 +12,10 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="footer-grid container">
         <div className="footer-brand">
-          <div className="brand-mark secondary">CA</div>
+          <div className="brand-mark secondary">CAA</div>
           <div>
-            <h3>Chandra Associates</h3>
-            <p>Premium engineering, architecture, and consultancy.</p>
+            <h3>CAA Chandra Architect & Associates</h3>
+            <p>Premium architecture, engineering, and consultancy.</p>
           </div>
         </div>
 
@@ -39,17 +39,20 @@ export default function Footer() {
 
         <div>
           <h4>Contact</h4>
-          <p>100 Corporate Avenue, Mumbai, India</p>
+          <p>Shop No.10, Basement Floor, Athani Kalyan Mantap Complex,</p>
+          <p>Near B.E. College Circle, Vidyagiri, Bagalkot - 587102</p>
+          <p>Phone: +91 87625 07550</p>
+          <p>Phone: +91 87625 07551</p>
           <p>Phone: +91 98452 78433</p>
-          <p>Email: contact@chandraassociates.com</p>
+          <p>Email: bgk.caa@gmail.com</p>
         </div>
       </div>
 
       <div className="footer-bottom container">
         <p>© 2026 Chandra Associates. All rights reserved.</p>
         <div className="social-links">
-          <a href="#" aria-label="LinkedIn">LinkedIn</a>
-          <a href="#" aria-label="WhatsApp">WhatsApp</a>
+          <a href="https://www.linkedin.com/company/chandra-architects-and-associates" aria-label="LinkedIn" target="_blank" rel="noreferrer noopener">LinkedIn</a>
+          <a href="https://wa.me/919845278433" aria-label="WhatsApp" target="_blank" rel="noreferrer noopener">WhatsApp</a>
           <a href="#" aria-label="Instagram">Instagram</a>
         </div>
       </div>

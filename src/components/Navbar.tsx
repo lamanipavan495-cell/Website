@@ -24,7 +24,7 @@ export default function Navbar() {
         <Link to="/" className="brand-logo">
           <span className="brand-mark">CA</span>
           <div>
-            <p>Chandra Associates</p>
+            <p>CAA Chandra Architect & Associates</p>
             <small>Engineering & Architecture</small>
           </div>
         </Link>
