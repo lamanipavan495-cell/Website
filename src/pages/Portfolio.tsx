@@ -21,8 +21,9 @@ const projects = [
     builtUpArea: '6,200 sq. ft.',
     services: 'Architecture, Interior Design, Visualization',
     description: 'A luxury villa featuring seamless indoor-outdoor living and elegant finishes.',
-    image: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80',
+    image: '/villa-portfolio.jpg',
   },
+
   {
     title: 'Institutional Campus',
     category: 'Institutional',
@@ -43,7 +44,10 @@ export default function Portfolio() {
     <section className="portfolio-page container">
       <div className="section-heading center">
         <p className="eyebrow">Portfolio</p>
-        <h1>Unlike your old website, this becomes the highlight.</h1>
+        <h1>Selected work that reflects our design discipline and execution quality.</h1>
+        <p className="section-lead">
+          Each project is shaped by context, client goals, and a commitment to enduring architecture.
+        </p>
       </div>
 
       <div className="filter-bar glass-card">
@@ -79,11 +83,6 @@ export default function Portfolio() {
                 <div><strong>Site area</strong><span>{project.siteArea}</span></div>
                 <div><strong>Built-up area</strong><span>{project.builtUpArea}</span></div>
                 <div><strong>Services</strong><span>{project.services}</span></div>
-              </div>
-              <div className="project-model placeholder-model">
-                <div className="model-overlay">
-                  <span>Interactive 3D model placeholder</span>
-                </div>
               </div>
             </div>
           </motion.article>

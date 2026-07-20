@@ -18,12 +18,18 @@ export default function Home() {
     <section className="home-page">
       <div className="hero-panel">
         <div className="hero-copy">
-          <span className="eyebrow">CAA Chandra Architect & Associates</span>
-          <h1>Sir M. Visvesvaraya Award-winning architecture from Bagalkot.</h1>
-          <p>You dream it. We do it.</p>
+          <p className="eyebrow">Award-winning design practice</p>
+          <h1>Chandra Architect & Associates</h1>
+          <p className="hero-lead">
+            Sir M. Visvesvaraya Award-winning architecture and engineering from Bagalkot, delivered with clarity, purpose, and lasting value.
+          </p>
+          <p>
+            We shape homes, institutions, and commercial environments with thoughtful planning, refined detailing, and dependable execution.
+          </p>
           <div className="hero-actions">
             <a href="https://wa.me/919845278433" className="button primary" target="_blank" rel="noreferrer noopener">WhatsApp</a>
             <a href="https://www.linkedin.com/company/chandra-architects-and-associates" className="button secondary" target="_blank" rel="noreferrer noopener">LinkedIn</a>
+            <a href="https://www.google.com/maps/place/Chandra+Architect+%26+Associates/@16.1733332,75.6573822,17z/data=!4m7!3m6!1s0x3bc77904c9b1a5b1:0x99e6f9d055012456!8m2!3d16.1733332!4d75.6599571!15sChJjaGFuZHJhIGFzc29jaWF0ZXOSARFhcmNoaXRlY3R1cmVfZmlybeABAA!16s%2Fg%2F11bxdv8xmn?entry=tts" className="button secondary" target="_blank" rel="noreferrer noopener">Locate Us</a>
           </div>
           <div className="hero-profile-grid">
             <div className="hero-profile glass-card">
@@ -102,16 +108,16 @@ export default function Home() {
           <div className="project-card glass-card">
             <div className="project-copy">
               <span>Future-ready campus</span>
-              <h3>Commercial complex — premium architecture.</h3>
-              <p>Detailed project narrative can be added here to describe the design approach and value delivered.</p>
+              <h3>Commercial complex crafted for presence and performance.</h3>
+              <p>From site planning to façade detailing, this project reflects our commitment to elegant, functional commercial architecture.</p>
             </div>
             <div className="project-visual building-image one" />
           </div>
           <div className="project-card glass-card reverse">
             <div className="project-copy">
               <span>Government collaboration</span>
-              <h3>Institutional building with robust planning.</h3>
-              <p>Replace with a strong summary of scope, impact, and performance for this portfolio highlight.</p>
+              <h3>Institutional building shaped with disciplined planning.</h3>
+              <p>Our approach balances civic identity, efficient circulation, and enduring quality through every phase of delivery.</p>
             </div>
             <div className="project-visual building-image two" />
           </div>
@@ -138,8 +144,14 @@ export default function Home() {
       <div className="section container client-section glass-card">
         <div className="client-grid">
           <div>
-            <p className="eyebrow">Trusted By</p>
-            <h2>Years of partnership with leading organizations.</h2>
+            <p className="eyebrow">Trusted by</p>
+            <h2>Clients who value thoughtful design and reliable delivery.</h2>
+          </div>
+          <div className="client-logos">
+            <span>Residential</span>
+            <span>Commercial</span>
+            <span>Institutional</span>
+            <span>Government</span>
           </div>
         </div>
       </div>

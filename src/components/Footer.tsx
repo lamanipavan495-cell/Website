@@ -53,7 +53,7 @@ export default function Footer() {
         <div className="social-links">
           <a href="https://www.linkedin.com/company/chandra-architects-and-associates" aria-label="LinkedIn" target="_blank" rel="noreferrer noopener">LinkedIn</a>
           <a href="https://wa.me/919845278433" aria-label="WhatsApp" target="_blank" rel="noreferrer noopener">WhatsApp</a>
-          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="mailto:bgk.caa@gmail.com" aria-label="Email">Email</a>
         </div>
       </div>
     </footer>
