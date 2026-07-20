@@ -6,6 +6,7 @@ const navItems = [
   { label: 'About Us', to: '/about' },
   { label: 'Services', to: '/services' },
   { label: 'Portfolio', to: '/portfolio' },
+  { label: 'Contact', to: '/contact' },
 ]
 
 export default function Navbar() {
@@ -22,14 +23,23 @@ export default function Navbar() {
     <header className={`site-header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="nav-inner">
         <Link to="/" className="brand-logo">
-          <span className="brand-mark">CA</span>
+          <img
+            src="/logos/logo.png"
+            alt="Chandra Architect & Associates logo"
+            className="brand-mark"
+          />
           <div>
             <p>CAA Chandra Architect & Associates</p>
             <small>Engineering & Architecture</small>
           </div>
         </Link>
 
-        <button className="nav-toggle" onClick={() => setMenuOpen((open) => !open)}>
+        <button
+          className={`nav-toggle ${menuOpen ? 'active' : ''}`}
+          onClick={() => setMenuOpen((open) => !open)}
+          aria-label="Toggle navigation"
+          aria-expanded={menuOpen}
+        >
           <span />
           <span />
           <span />

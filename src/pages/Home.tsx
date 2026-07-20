@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 import Hero3D from '../components/Hero3D'
 
 const statisticItems = [
@@ -156,13 +157,6 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="section container callout-panel">
-        <div className="callout-copy">
-          <p className="eyebrow">Start your next project</p>
-          <h2>Bring a premium engineering and architecture partner to your team.</h2>
-        </div>
-        <a href="/contact" className="button primary large">Book a consultation</a>
-      </div>
     </section>
   )
 }
