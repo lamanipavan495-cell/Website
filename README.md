@@ -32,6 +32,9 @@ You can deploy the generated `dist/` folder to any static host:
 - Firebase Hosting
 - AWS S3 / CloudFront
 
+webite link:
+https://website-gamma-ten-28.vercel.app/
+
 ## Notes
 
 - This project is a standalone static website built with React, Vite, and TypeScript.
